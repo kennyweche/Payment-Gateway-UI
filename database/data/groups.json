@@ -1,0 +1,38 @@
+[
+
+	//=====================================================//
+				//Groups
+	//=====================================================//
+
+	{
+		"group_id":"1",
+		"name": "Super Admins",
+		"description":"Overall super admin",
+	},
+
+	{
+		"group_id":"2",
+		"name": "Admins",
+		"description":"System admins/tech",
+	},
+
+	{
+		"group_id":"3",
+		"name": "Finance",
+		"description":"Finance department",
+	},
+
+	{
+		"group_id":"4",
+		"name": "Business",
+		"description":"Business department",
+	},
+
+	{
+		"group_id":"5",
+		"name": "Support",
+		"description":"Customer service",
+	},
+	
+
+]

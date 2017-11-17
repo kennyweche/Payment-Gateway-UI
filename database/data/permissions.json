@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "name": "Payments Module",
+    "description": "View and search payments"
+  },
+  {
+    "id": "2",
+    "name": "Dashboard Module",
+    "description": "View dashboard"
+  },{
+    "id": "3",
+    "name": "Reports Module",
+    "description": "Search and generate reports"
+  },{
+    "id": "4",
+    "name": "Clients Module",
+    "description": "CRUD clients"
+  },{
+    "id": "5",
+    "name": "Status Codes",
+    "description": "CRUD status codes"
+  },{
+    "id": "6",
+    "name": "Users Module",
+    "description": "CRUD users"
+  },{
+    "id": "7",
+    "name": "Notifications Module",
+    "description": "CRUD notifications"
+  },{
+    "id": "8",
+    "name": "Notification Template",
+    "description": "CRUD Notifications"
+  }
+]

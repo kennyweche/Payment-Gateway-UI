@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Super Admin",
+    "description": "Overall system super admin"
+  },
+  {
+    "id": "2",
+    "name": "Admin",
+    "description": "System Admins"
+  },
+  {
+    "id": "3",
+    "name": "Finance",
+    "description": "Finance People"
+  },
+  {
+    "id": "4",
+    "name": "Business",
+    "description": "Business People"
+  },
+  {
+    "id": "5",
+    "name": "CS Support",
+    "description": "Support People"
+  }
+]

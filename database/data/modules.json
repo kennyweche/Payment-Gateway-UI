@@ -1,0 +1,57 @@
+[
+
+	//=====================================================//
+				//Modules
+	//=====================================================//
+
+	{
+		"module_id":"1",
+		"name":"Dashboard"
+	},
+	{
+		"module_id":"2",
+		"name":"Payments"
+	},
+	{
+		"module_id":"3",
+		"name":"Reports"
+	},
+	{
+		"module_id":"4",
+		"name":"Clients"
+	},
+	{
+		"module_id":"5",
+		"name":"Channel"
+	},
+	{
+		"module_id":"6",
+		"name":"Client Channel"
+	},
+	{
+		"module_id":"7",
+		"name":"Client Channel Reference"
+	},
+	{
+		"module_id":"8",
+		"name":"Channel Rules"
+	},
+	{
+		"module_id":"9",
+		"name":"Status Codes"
+	},
+	{
+		"module_id":"10",
+		"name":"Users"
+	},
+	{
+		"module_id":"11",
+		"name":"Notifications"
+	},
+	{
+		"module_id":"12",
+		"name":"Notifications Templates"
+	},
+	
+
+]

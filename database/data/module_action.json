@@ -1,0 +1,371 @@
+
+//=====================================================//
+	
+	// Module ID 1: Dashboard
+	// Module ID 2: Payments
+	// Module ID 3: Reports
+	// Module ID 4: Clients
+	// Module ID 5: Channel
+	// Module ID 6: Client Channels
+	// Module ID 7: Client Channel Reference
+	// Module ID 8: Channel Rules
+	// Module ID 9: Users
+	// Module ID 10: Notifications
+	// Module ID 11: Notification Templates
+
+
+//=====================================================//
+
+
+
+[
+
+	//=====================================================//
+						//Dashboard Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"1",
+		"module_id":"1",
+		"action":"index"
+
+	},
+	
+	//=====================================================//
+						//Payments Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"2",
+		"module_id":"2",
+		"action":"index"
+	},
+	{
+		"module_action_id":"3",
+		"module_id":"2",
+		"action":"search"
+	},
+
+
+	//=====================================================//
+						//Reports Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"4",
+		"module_id":"3",
+		"action":"search"
+	},
+	{
+		"module_action_id":"5",
+		"module_id":"3",
+		"action":"generate_report"
+	},
+
+	//=====================================================//
+						//Clients Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"6",
+		"module_id":"4",
+		"action":"index"
+	},
+	{
+		"module_action_id":"7",
+		"module_id":"4",
+		"action":"search"
+	},
+	{
+		"module_action_id":"8",
+		"module_id":"4",
+		"action":"store"
+	},
+	{
+		"module_action_id":"9",
+		"module_id":"4",
+		"action":"show"
+	},
+	{
+		"module_action_id":"10",
+		"module_id":"4",
+		"action":"update"
+	},
+	{
+		"module_action_id":"11",
+		"module_id":"4",
+		"action":"destroy"
+	},
+
+	//=====================================================//
+						//Channel Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"12",
+		"module_id":"5",
+		"action":"index"
+	},
+	{
+		"module_action_id":"13",
+		"module_id":"5",
+		"action":"search"
+	},
+	{
+		"module_action_id":"14",
+		"module_id":"5",
+		"action":"store"
+	},
+	{
+		"module_action_id":"15",
+		"module_id":"5",
+		"action":"show"
+	},
+	{
+		"module_action_id":"16",
+		"module_id":"5",
+		"action":"update"
+	},
+	{
+		"module_action_id":"17",
+		"module_id":"5",
+		"action":"destroy"
+	},
+
+
+	//=====================================================//
+						//Client Channel Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"18",
+		"module_id":"6",
+		"action":"index"
+	},
+	{
+		"module_action_id":"19",
+		"module_id":"6",
+		"action":"search"
+	},
+	{
+		"module_action_id":"20",
+		"module_id":"6",
+		"action":"store"
+	},
+	{
+		"module_action_id":"21",
+		"module_id":"6",
+		"action":"show"
+	},
+	{
+		"module_action_id":"22",
+		"module_id":"6",
+		"action":"update"
+	},
+	{
+		"module_action_id":"23",
+		"module_id":"6",
+		"action":"destroy"
+	},
+
+	//=====================================================//
+				//Client Channel Reference Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"24",
+		"module_id":"7",
+		"action":"index"
+	},
+	{
+		"module_action_id":"25",
+		"module_id":"7",
+		"action":"search"
+	},
+	{
+		"module_action_id":"26",
+		"module_id":"7",
+		"action":"store"
+	},
+	{
+		"module_action_id":"27",
+		"module_id":"7",
+		"action":"show"
+	},
+	{
+		"module_action_id":"28",
+		"module_id":"7",
+		"action":"update"
+	},
+	{
+		"module_action_id":"29",
+		"module_id":"7",
+		"action":"destroy"
+	},
+
+	//=====================================================//
+				//Channel Rules Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"30",
+		"module_id":"8",
+		"action":"index"
+	},
+	{
+		"module_action_id":"31",
+		"module_id":"8",
+		"action":"search"
+	},
+	{
+		"module_action_id":"32",
+		"module_id":"8",
+		"action":"store"
+	},
+	{
+		"module_action_id":"33",
+		"module_id":"8",
+		"action":"show"
+	},
+	{
+		"module_action_id":"34",
+		"module_id":"8",
+		"action":"update"
+	},
+	{
+		"module_action_id":"35",
+		"module_id":"8",
+		"action":"destroy"
+	},
+
+	//=====================================================//
+				//Status Codes Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"36",
+		"module_id":"9",
+		"action":"index"
+	},
+	{
+		"module_action_id":"37",
+		"module_id":"9",
+		"action":"search"
+	},
+	{
+		"module_action_id":"38",
+		"module_id":"9",
+		"action":"store"
+	},
+	{
+		"module_action_id":"39",
+		"module_id":"9",
+		"action":"show"
+	},
+	{
+		"module_action_id":"40",
+		"module_id":"9",
+		"action":"update"
+	},
+	{
+		"module_action_id":"41",
+		"module_id":"9",
+		"action":"destroy"
+	},
+
+	//=====================================================//
+				//Users Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"42",
+		"module_id":"10",
+		"action":"index"
+	},
+	{
+		"module_action_id":"43",
+		"module_id":"10",
+		"action":"search"
+	},
+	{
+		"module_action_id":"44",
+		"module_id":"10",
+		"action":"store"
+	},
+	{
+		"module_action_id":"45",
+		"module_id":"10",
+		"action":"show"
+	},
+	{
+		"module_action_id":"46",
+		"module_id":"10",
+		"action":"update"
+	},
+	{
+		"module_action_id":"47",
+		"module_id":"10",
+		"action":"destroy"
+	},
+	{
+		"module_action_id":"48",
+		"module_id":"10",
+		"action":"add_user_to_group"
+	},
+	{
+		"module_action_id":"49",
+		"module_id":"10",
+		"action":"remove_user_from_group"
+	},
+
+	//=====================================================//
+				//Notifications Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"50",
+		"module_id":"11",
+		"action":"index"
+	},
+	{
+		"module_action_id":"51",
+		"module_id":"11",
+		"action":"search"
+	},
+	
+	//=====================================================//
+				//Notifications Templates Controller
+	//=====================================================//
+
+	{
+		"module_action_id":"52",
+		"module_id":"12",
+		"action":"index"
+	},
+	{
+		"module_action_id":"53",
+		"module_id":"12",
+		"action":"search"
+	},
+	{
+		"module_action_id":"54",
+		"module_id":"12",
+		"action":"store"
+	},
+	{
+		"module_action_id":"55",
+		"module_id":"12",
+		"action":"show"
+	},
+	{
+		"module_action_id":"56",
+		"module_id":"12",
+		"action":"update"
+	},
+	{
+		"module_action_id":"57",
+		"module_id":"12",
+		"action":"destroy"
+	},
+	
+]
